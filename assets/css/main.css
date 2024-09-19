@@ -68,6 +68,7 @@
     gap: 20px;
     box-shadow: 0px 12.23719596862793px 12.23719596862793px rgba(0, 0, 0, 0.1);
     padding: 15px;
+    position: relative;
 }
 
 .Testimonials .user_data img {
@@ -109,6 +110,17 @@ q::before {
 q::after {
     content: close-quote;
     padding-left: 10px;
+}
+.testimonial ::before{
+    content:'' ;
+    border-top: 50px solid #972a2a transparent ;
+    border-right:50px solid #F4F4F4 ;
+    border-bottom: 50px solid #fff  ;
+    border-left:50px solid #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 
 /* end Testimonials */
