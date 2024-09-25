@@ -66,6 +66,87 @@
 }
 
 /*end navbar*/
+/* start begin*/
+.begins .container .begin_info{
+    width: 100%;
+    height: 70vh;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.begins .container .begin_info .bold{
+    font-weight: 600;
+    
+}
+.begins .container .begin_info h3{
+    font-size: 40px;
+    font-weight: 800;
+    width: 300px;
+}
+.begins .container .begin_info p {
+    color: #969696;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+  }
+  .begins .container .begin_info .play{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+.begins .container .begin_info span{
+    color: var(--main-color);
+}
+.begins .container .begin_info span:first-child{
+    width: 20px;
+}
+.begins .begin_info .begin_img{
+  background-image: url(../image/background/begin_img.png);
+  width: calc(50% - 15px);
+  height: 100%;
+  background-position: center;
+  background-size: contain; 
+  background-repeat: no-repeat;
+}
+.begins .begin_info .desc{
+    width: calc(50% - 15px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+svg{
+    width: 25px;
+    height: 25px;
+    background-color: #F0C932;
+    border-radius: 50%;
+    padding: 5px;
+}
+.begins .begin_info .desc .play .play_button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+.begins .begin_info .desc .play .register{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.begins .begin_info .desc .play{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+/*end begin*/
 /* start avalible courses */
 .avaliable_courses {
 }
@@ -161,13 +242,17 @@
   color: var(--main-color);
 }
 .courses .available h3 {
-  margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+    width: 300px;
+  margin-bottom: 60px;
   margin-top: 10px;
 }
 .courses .available p {
-  color: #969696;
-  font-size: 14px;
-  margin-bottom: 10px;
+    color: #969696;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 400px;
 }
 .courses .available a {
   height: fit-content;
@@ -218,45 +303,20 @@
     color:#F0C932;
   }
   .selected_courses .background .desc h3 {
-    font-size: 24px;
+    font-size:30px;
+    font-weight: 800;
+    width: 300px;
     margin-bottom: 30px;
     margin-top: 10px;
 
   }
   .selected_courses .background .desc p {
-    color: #DDDDDD;
+    color: #969696;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    width: 400px;
   }
-/*
-  .selected_courses .background .desc .num{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 10px; 
 
-  }
-  .selected_courses .background .desc .num span {
-    font-size: 15px;    
-    font-weight: 600;                               
-  }
-  .selected_courses .background .desc .decs_num{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 10px; 
-   
-
-  }
-  .selected_courses .background .desc .num span {
-    font-size: 15px;    
-    font-weight: 600;                               
-  }
-  */
   .selected_courses .background .desc .numeres{
     display: flex;
     flex-wrap: wrap;
@@ -271,7 +331,7 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    gap: 20px; 
+    gap: 10px; 
  }
  .selected_courses .background .desc .People_Views span:last-child ,
  .selected_courses .background .desc .User span:last-child,
