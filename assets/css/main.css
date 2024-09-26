@@ -108,6 +108,8 @@
 .begins .begin_info .begin_img{
   background-image: url(../image/background/begin_img.png);
   width: calc(50% - 15px);
+  flex-basis: 400px;
+  flex-grow: 1;
   height: 100%;
   background-position: center;
   background-size: contain; 
@@ -115,6 +117,7 @@
 }
 .begins .begin_info .desc{
     width: calc(50% - 15px);
+    flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -147,6 +150,106 @@ svg{
     align-items: center;
 }
 /*end begin*/
+/* start services*/
+.services{
+    background-color: #F5F5F5;
+    padding: 50px 0;
+    
+}
+.services .background_serv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 70vh;
+    align-items: center;
+    
+    
+}
+
+.services .we_give{
+    width: calc( 50% - 15px );
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.services .we_give h3{
+    font-size: 35px;
+    font-weight: 800;
+    width: 250px;
+}
+.services .we_give span{
+    
+    font-size: 12px;
+    width: 70px;
+    color: var(--main-color);
+}
+
+.services .we_give p {
+    color: #969696;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 280px;
+  }
+.services .background_serv .services_info{
+    width: calc( 50% - 15px );
+    flex-basis: 400px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.services .background_serv .services_info .teacher ,
+.services .background_serv .services_info .courses ,
+.services .background_serv .services_info .learning{
+    width: calc((100% / 3) - 20px);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 10px;
+    
+
+}
+.services .background_serv .services_info .teacher h4 ,
+.services .background_serv .services_info .courses  h4,
+.services .background_serv .services_info .learning h4 {
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+
+}
+.services .background_serv .services_info .teacher p ,
+.services .background_serv .services_info .courses  p,
+.services .background_serv .services_info .learning p{
+    color: #DDDDDD;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+  
+}
+.services .background_serv .services_info .teacher svg ,
+.services .background_serv .services_info .courses  svg,
+.services .background_serv .services_info .learning svg{
+    width: 30px;
+    height: 30px;
+    background-color: #ffff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+/* end Services*/
+
+
 /* start avalible courses */
 .avaliable_courses {
 }
