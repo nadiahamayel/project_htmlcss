@@ -367,6 +367,8 @@ svg {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    flex-basis: 400px;
+    flex-grow: 1;
     width: calc (100% - 15px);
 }
 
@@ -374,8 +376,6 @@ svg {
 .available {
     width: calc(50% - 15px);
     padding: 10px;
-    flex-basis: 400px;
-    flex-grow: 1;
     margin-top: 30px;
     box-sizing: border-box;
 }
@@ -434,15 +434,15 @@ svg {
 .courses .course_item .course_info_1 {
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 10px;
-    gap: 80px;
-}
-
-.courses .course_item .course_info_1 span {
+    margin: 10px ;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .courses .course_item .course_info_1 span {
     font-size: 10px;
     color: var(--main-color);
     margin-top: 5px;
-}
+  }
 
 .courses .course_item .course_info_2 {
     display: flex;
