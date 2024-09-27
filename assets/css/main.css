@@ -435,8 +435,11 @@ svg {
     display: flex;
     flex-wrap: wrap;
     margin: 10px ;
-    gap: 10px;
-    justify-content: space-between;
+    gap: 20px;
+    
+  }
+  .courses .course_item .course_info_1 h3{
+    font-size: 14px;
   }
   .courses .course_item .course_info_1 span {
     font-size: 10px;
